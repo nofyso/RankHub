@@ -11,8 +11,6 @@ on:
       - ".idea/**"
       - "test/**"
       - ".gitignore"
-  schedule:
-    - cron: "0 18 * * *"
 
 jobs:
   build_ios:
